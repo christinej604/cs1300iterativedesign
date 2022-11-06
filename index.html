@@ -1,1 +1,210 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Iterative Design and Evaluation</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #556eec">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          Project 4
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item d-flex align-items-center">
+              <a class="nav-link active" aria-current="page" href="#background"> Background </a>
+            </li>
+            <li class="nav-item d-flex align-items-center">
+              <a class="nav-link" href="#sketching">Sketching and Wireframing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#mockups"> Mockups</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#user-testing"> User Testing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"> Contact the Startup </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main role="main" class="container">
+    <div class="row">
+      <h1 class="display-1">
+        Iterative Design and Evaluation
+      </h1>
+      <hr>
+    </div>
+
+    <div class="row text-center" id="background">
+      <h2>Background</h2>
+      <p> As a group of computer science students at Brown University, we wanted to iteratively design for a startup that 
+        is could be more practical in our daily life. We decided to design for a startup called Taro.  </p>
+      <div class="d-flex justify-content-center">
+        <img src="taro-mission.png" class="d-block w-50 align-items-center" alt="taro's mission statement"> 
+      </div>
+      <hr>
+    </div>
+
+    <div class="row" id="sketching">
+      <h2 class="text-center">Sketching and Wireframing</h2>
+      <p> After looking at the concept of the startup, we assumed that our users consist of (1) software enginners
+        currently employed, (2) undergraduate students looking for internship or post-grad opportunities, (3) recruiters
+        at different companies who would interact with their desktop. <br/><br/>
+        Each member of our group then brainstormed and sketched 3 different screens (total of 4 members x 3 screens = 12 screens). 
+        See the images below! 
+      </p>
+      <img src="..." alt="design1">
+      <img src="..." alt="design2">
+      <img src="..." alt="design3">
+      <img src="..." alt="design4">
+      <img src="..." alt="design5">
+      <img src="..." alt="design6">
+      <img src="..." alt="design7">
+      <img src="..." alt="design8">
+      <img src="..." alt="design9">
+      <img src="..." alt="design10">
+      <img src="..." alt="design11">
+      <img src="..." alt="design12">
+      <p> <br/>After we finished sketching, we shared and discussed how our sketches demonstrate solutions
+        to the company's goals. Below are our wireframes along with relevant annotations.
+      </p>
+      <hr>
+    </div>
+
+    <div class="row" id="mockups">
+      <h2 class="text-center"> Mockups</h2>
+      <p>
+        From the wireframe, we made an interactive high-fidelity wireframe using Figma, and in our studio,
+        we received feedback from the colleagues. Click <a href="https://www.figma.com/proto/fAOO43sE7wszKP7YsCgY0C/Taro?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1">here</a> 
+        to interact with our hi-fi prototype. <br/><br/>
+        Here are some critiques that we have received: </p>
+      <ul>
+        <li>
+          Hierarchy
+        </li>          
+        <li>
+          Interaction
+          <ul>
+            <li>
+              Add an interaction screen after clearing history.
+            </li>
+            <li>                
+              Add an interaction that helps users sign out of their account. 
+            </li>
+          </ul>
+        </li>
+        <li>
+          Navigation
+          <ul>
+            <li>                
+              Current design is so that the user can click anywhere outside of "sign in" button to take you out of sign in box, but change it so that 
+                the user can click anywhere outside of the sign in box. 
+            </li>
+          </ul>
+        </li>
+        <li>
+          Learnability
+          <ul>
+            <li>                
+              Add more clarity to the filter titles in the expert advice section.
+            </li>
+            <li>
+              Add more clarity to what the salary page is about and its filter. 
+            </li>
+            <li>
+              Add more clarity to how the "Events for You" and "Calendar" work on the "Networking Events" section.
+            </li>            
+          </ul>
+        </li>
+        <li>
+          Visual design
+          <ul>
+            <li>
+              Change "lorem ipsum" to actual relevant words that would fit into the context.
+            </li>
+            <li>
+              Create consistency between expert advice and career advice.
+            </li>
+            <li>
+              Add a scroll bar to our pages to indicate that there are more content. 
+            </li>
+            <li>
+              Fill in the white space with filter instead of creating a filter button.
+            </li>
+            <li>
+              Change 3 bars on the profile page to a button that expands all. 
+            </li>
+            <li>
+              Include date, location, and time in the networking events along with a short blurb about the event.
+            </li>
+          </ul>
+        </li>
+      </ul>   
+      <p>We incorporated all the helpful critiques and finalized our prototype which can be found <a
+        href="https://www.figma.com/proto/fAOO43sE7wszKP7YsCgY0C/Taro?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1">here</a>.
+      </p>
+      <hr>
+    </div>
+
+    <div class="row" id="user-testing">
+      <h2 class="text-center">User Testing</h2>
+      <p>
+        To test the usability of our interface, we conducted our usability test using <a href="https://www.usertesting.com/">UserTesting.com</a>.
+        We have given the users to ... We expect the users to ... <br/><br/>
+
+        Here are the links of the three users who have used our website: <br/>
+        <a href="...">User 1</a> <br/>
+        <a href="...">User 2</a> <br/>
+        <a href="...">User 3</a> <br/> <br/>
+        
+        From the test, *Include a short summary of the subtasks, what types of errors users made, and generally how they did on the tasks*
+      </p>
+      <hr>
+    </div>
+
+    <div class="row" id="contact">
+      <h2 class="text-center"> Contact the Startup</h2>
+      <p>
+        Finally, we shared our final prototype to the startup!
+      </p>
+      <img src="..." alt="image of the email">
+      <hr>
+    </div>
+  </main>
+
+  <footer class="page-footer font-small">
+    <div class="container">
+      <p>
+        Website built using Bootstrap's CSS library.
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
 
