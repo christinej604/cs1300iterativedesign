@@ -1,0 +1,14 @@
+*
+  padding: 0
+  margin: 0
+
+.images
+  width: 100%
+  display: grid
+  grid-template-columns: repeat(3, 1fr)
+  gap: 2rem
+  img
+    width: 100%
+  @media (max-width: 720px)
+    grid-template-columns: repeat(1, 1fr)
+  
